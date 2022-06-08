@@ -53,7 +53,7 @@ main {
   width: 550px;
   background: var(--white);
   padding: 35px;
-  margin-top: 100px;
+  margin-top: 70px;
   border-radius: 10px;
   position: relative;
 }
@@ -236,6 +236,15 @@ ul li::before {
 }
 button:hover {
   color: var(--white);
+}
+.attribution {
+  font-size: 12px;
+  margin-top: 20px;
+  color: var(--dark-desaturated-blue);
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--strong-cyan);
 }
 
 @media screen and (max-width: 555px) {
